@@ -1,0 +1,33 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.0",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-15": "^1.4.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-15": "^1.4.1",
+    "jest": "^24.9.0",
+    "raf": "^3.3.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-test-renderer": "^16.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config=jest.config.json",
+    "eject": "react-scripts eject"
+  }
+}
